@@ -1,0 +1,68 @@
+body{
+    /* background-image: url('.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nowTime{
+    color: whitesmoke;
+    text-align: center; /* text를 중앙 정렬이니까 text-align: center를 이용*/
+    font-size: 7em;
+    margin-bottom: 30px;
+}
+
+div{
+    width: 600px;
+    margin: auto; /* auto = 좌우여백을 동일하게 준다는 의미, 이 div 자체를 중앙으로 옮겨야해서 margin: auto사용*/
+}
+
+.js-toDoForm input{
+    width: 100%; /*div안에 있는 form, 또 그안에 있는 input을 꽉 차게*/
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    background: transparent; /* transparent = 투명한 */
+    outline:none; /* 클릭하면 나오는 파란 테두리를 없앤다 */
+    color: whitesmoke; /* input안에 글을 쓸 때 글자색*/
+}
+
+input::placeholder{
+    color: whitesmoke;
+}
+
+.js-toDoList{
+    width: 300px;
+    list-style-type: none; /*기본적으로 생기는 마커를 없앤다*/
+    padding:0px; /*마커가 있던 자리가 공백으로 남아있으므로 padding: 0px로 없앤다*/
+    margin-top:0px;
+    font-size: 1em;
+}
+
+.js-complecated{
+    width: 300px;
+    list-style-type: none; /*기본적으로 생기는 마커를 없앤다*/
+    padding:0px; /*마커가 있던 자리가 공백으로 남아있으므로 padding: 0px로 없앤다*/
+    margin-top:0px;
+    font-size: 1em;
+}
+
+ul{
+    float: left;
+}
+
+p{
+    color: whitesmoke;
+    text-align: center;
+}
+
+button{
+    background: none; 
+    border: none;
+    outline-color: whitesmoke;
+}
+
+li{
+    margin-top: 0.7em; /* 각 li들의 너무 붙지 않게 간격 조절 */
+    color: whitesmoke;
+}
+
